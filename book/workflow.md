@@ -1,11 +1,12 @@
 # Notebook workflow
 
-1. Open the [Lab](https://jltobias.github.io/JupyterLite-RustGIS/lab/index.html) and run `01_explore_geojson.ipynb`. It checks geometry and computes a bounding box without extra packages.
-2. Run `02_map_links.ipynb` to compare features in the [2D map](https://jltobias.github.io/JupyterLite-RustGIS/maps/2d.html), [3D map](https://jltobias.github.io/JupyterLite-RustGIS/maps/3d.html), and [3D scene](https://jltobias.github.io/JupyterLite-RustGIS/maps/scene.html).
-3. Open bundled `data/demo_features.geojson` in the [RustGIS web app](https://web.rustgis.app/) using its file picker. Try styling features and comparing the 2D and globe views.
-4. To run actual RustGIS Python commands, install `rustgis` in a local Python environment and run `04_native_rustgis.ipynb` there. Pyodide cannot load native RustGIS wheels.
+1. Open [notebook 00 in the Lab](https://jltobias.github.io/JupyterLite-RustGIS/lab/lab/index.html?path=00_start_here.ipynb). Read the runtime diagram and watch the captioned workflow explainer.
+2. Run notebooks 01–03 to inspect the illustrative GeoJSON, compare the [2D map](https://jltobias.github.io/JupyterLite-RustGIS/maps/2d.html), [3D map](https://jltobias.github.io/JupyterLite-RustGIS/maps/3d.html), and [3D scene](https://jltobias.github.io/JupyterLite-RustGIS/maps/scene.html), and export a handoff package.
+3. Run notebooks 04–05 for bounded STAC discovery using the user's STAC Browser client. Open the saved Item footprints in [RustGIS Web](https://web.rustgis.app/) and keep the query provenance.
+4. Use notebook 06 to decide whether a climate table is map-ready, notebook 07 to understand Ollama-assisted RustGIS, and notebooks 08–09 for perspective comparison and a reproducible capstone.
+5. To run actual RustGIS Python commands, install `rustgis` in a local Python environment and run `04_native_rustgis.ipynb` there. Pyodide cannot load native RustGIS wheels.
 
-The companion map pages use MapLibre GL JS and the same GeoJSON. They illustrate concepts applicable to RustGIS but do not execute RustGIS commands.
+The companion 2D and 3D maps use MapLibre GL JS; the separate orbitable scene uses Three.js. They illustrate concepts applicable to RustGIS but do not execute RustGIS commands.
 
 ## Native RustGIS analysis
 

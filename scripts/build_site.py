@@ -22,9 +22,10 @@ def main():
     shutil.copytree(ROOT / "assets", SITE / "assets")
     maps = SITE / "maps"
     maps.mkdir()
-    for name in ("2d", "3d", "scene"):
+    for name in ("2d", "3d"):
         shutil.copyfile(ROOT / "maps" / "view.html", maps / f"{name}.html")
-    (SITE / "index.html").write_text('''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>JupyterLite–RustGIS</title><style>body{font:1.2rem system-ui;max-width:800px;margin:7vh auto;padding:1rem;background:#102034;color:#f6f9fa}a{color:#87deee}li{margin:.7rem 0}img{width:100%;border-radius:12px}</style><h1>JupyterLite–RustGIS</h1><img src="assets/rustgis-splash.png" alt="Stylized terrain globe"><p>Browser notebooks and geospatial views inspired by RustGIS.</p><ul><li><a href="lab/index.html">JupyterLite Lab</a></li><li><a href="book/index.html">Jupyter Book</a></li><li><a href="maps/2d.html">2D map</a></li><li><a href="maps/3d.html">3D map</a></li><li><a href="maps/scene.html">3D scene</a></li><li><a href="https://web.rustgis.app/">RustGIS web app</a></li></ul></html>''', encoding="utf-8")
+    shutil.copyfile(ROOT / "maps" / "scene.html", maps / "scene.html")
+    (SITE / "index.html").write_text('''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>JupyterLite–RustGIS</title><style>body{font:1.2rem system-ui;max-width:800px;margin:7vh auto;padding:1rem;background:#102034;color:#f6f9fa}a{color:#87deee}li{margin:.7rem 0}img{width:100%;border-radius:12px}</style><h1>JupyterLite–RustGIS</h1><img src="assets/rustgis-splash.png" alt="Stylized terrain globe"><p>Browser notebooks and geospatial views inspired by RustGIS.</p><ul><li><a href="lab/lab/index.html">JupyterLite Lab</a></li><li><a href="book/index.html">Jupyter Book</a></li><li><a href="maps/2d.html">2D map</a></li><li><a href="maps/3d.html">3D map</a></li><li><a href="maps/scene.html">3D scene</a></li><li><a href="https://web.rustgis.app/">RustGIS web app</a></li></ul></html>''', encoding="utf-8")
     (SITE / ".nojekyll").touch()
 
 if __name__ == "__main__":

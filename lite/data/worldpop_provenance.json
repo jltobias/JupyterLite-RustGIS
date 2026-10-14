@@ -1,0 +1,16 @@
+{
+  "source_repository": "https://github.com/jltobias/JupyterLite-STAC-Browser",
+  "provider": "WorldPop STAC API",
+  "provider_url": "https://api.stac.worldpop.org",
+  "collection_url": "https://api.stac.worldpop.org/collections/UGA",
+  "collection_license": "CC-BY-4.0 (advertised by the UGA STAC Collection on 2026-10-14)",
+  "query_url": "https://api.stac.worldpop.org/search?collections=UGA&bbox=29%2C-2%2C35%2C5&limit=3",
+  "retrieved_on": "2026-10-14",
+  "scope": "STAC metadata footprints only; no raster assets copied",
+  "item_ids": [
+    "UGA_DUG_2030",
+    "UGA_DUG_2029",
+    "UGA_DUG_2028"
+  ],
+  "license_note": "Check each collection/item license and providers before downloading assets."
+}

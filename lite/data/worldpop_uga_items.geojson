@@ -1,0 +1,677 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "UGA_DUG_2030",
+      "bbox": [
+        29.56415799171268,
+        -1.4881970648379006,
+        35.080780308377214,
+        4.223233942687475
+      ],
+      "type": "Feature",
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://api.stac.worldpop.org/collections/UGA"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.stac.worldpop.org/collections/UGA"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.stac.worldpop.org/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://api.stac.worldpop.org/collections/UGA/items/UGA_DUG_2030"
+        },
+        {
+          "rel": "https://dx.doi.org/10.5258/SOTON/WP00879",
+          "href": "https://api.stac.worldpop.org/text/html",
+          "title": "DOI - 10.5258/SOTON/WP00879"
+        },
+        {
+          "rel": "https://hub.worldpop.org/project/categories?id=3",
+          "href": "https://api.stac.worldpop.org/text/html",
+          "title": "Global2 R2025A population"
+        },
+        {
+          "rel": "https://human-settlement.emergency.copernicus.eu/tools.php",
+          "href": "https://api.stac.worldpop.org/text/html",
+          "title": "GHS-DUG tool (v6.8)"
+        },
+        {
+          "rel": "documentation",
+          "href": "https://human-settlement.emergency.copernicus.eu/tools/GHS-DUG_User_Guide.pdf",
+          "type": "application/pdf",
+          "title": "GHS-DUG Tool Documentation"
+        }
+      ],
+      "assets": {
+        "grid_l1": {
+          "href": "https://data.worldpop.org/GIS/DUG/Global_2015_2030/R2025A/v1/2030/UGA/UGA_DUG_2030_GRID_L1_R2025A_v1.tif",
+          "type": "image/tiff; application=geotiff",
+          "roles": [
+            "data"
+          ],
+          "title": "Download - GRID Level 1",
+          "description": "Degree of Urbanisation GRID Level 1 data for Uganda, 2030. Raster file contains the GHS-DUG grid L1 classification, where each pixel is classified in one of these settlement classes: 1, 2 and 3."
+        },
+        "grid_l2": {
+          "href": "https://data.worldpop.org/GIS/DUG/Global_2015_2030/R2025A/v1/2030/UGA/UGA_DUG_2030_GRID_L2_R2025A_v1.tif",
+          "type": "image/tiff; application=geotiff",
+          "roles": [
+            "data"
+          ],
+          "title": "Download - GRID Level 2",
+          "description": "Degree of Urbanisation GRID Level 2 data for Uganda, 2030. Raster file contains the GHS-DUG grid L2 classification, where each pixel is classified in one of these settlement classes: 10, 11, 12, 13, 21, 22, 23 and 30."
+        },
+        "entities": {
+          "href": "https://data.worldpop.org/GIS/DUG/Global_2015_2030/R2025A/v1/2030/UGA/UGA_DUG_2030_entities_R2025A_v1.zip",
+          "type": "application/zip",
+          "roles": [
+            "data"
+          ],
+          "title": "Download - Entities",
+          "description": "Degree of Urbanisation entities data for Uganda, 2030. Raster and vector files contain spatial entities that are derived from GHSL SMOD grid L2 classification raster."
+        },
+        "thumbnail": {
+          "href": "https://api.stac.worldpop.org/thumbnails/items/UGA_DUG_2030?collection_id=UGA",
+          "type": "image/png",
+          "roles": [
+            "overview"
+          ],
+          "title": "Thumbnail image"
+        },
+        "statistics": {
+          "href": "https://data.worldpop.org/GIS/DUG/Global_2015_2030/R2025A/v1/2030/UGA/UGA_DUG_2030_statistics_R2025A_v1.zip",
+          "type": "application/zip",
+          "roles": [
+            "metadata"
+          ],
+          "title": "Download - Statistics",
+          "description": "Degree of Urbanisation statistics for Uganda, 2030. Population count per Degree of Urbanisation classes."
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.080780308377214,
+              -1.4881970648379006
+            ],
+            [
+              35.080780308377214,
+              4.223233942687475
+            ],
+            [
+              29.56415799171268,
+              4.223233942687475
+            ],
+            [
+              29.56415799171268,
+              -1.4881970648379006
+            ],
+            [
+              35.080780308377214,
+              -1.4881970648379006
+            ]
+          ]
+        ]
+      },
+      "collection": "UGA",
+      "properties": {
+        "name": "Uganda",
+        "size": "335.43 KB",
+        "year": 2030,
+        "title": "Uganda, Degree of Urbanisation in 2030",
+        "Release": "R2025A",
+        "Version": "v1",
+        "project": "Degree of Urbanisation",
+        "datetime": "2030-01-01T00:00:00Z",
+        "provider": "GTiff",
+        "stats:max": 3.0,
+        "stats:min": 1.0,
+        "data:width": 547,
+        "stats:mean": 1.3,
+        "data:band_1": "TIFFTAG_DOCUMENTNAME: UGA_DUG_2030_GRID_L1_R2025A_v1\n\nTIFFTAG_IMAGEDESCRIPTION: UGA, GHS-DUG grid L1 classification. Population and SDG indicators by Degree of Urbanisation\u200b (DEGURBA) [WorldPop R2025A v1]\n\nTIFFTAG_SOFTWARE: GHS-DUG - Degree of Urbanisation Grid (v6.8)\n\nTIFFTAG_DATETIME: 2026-01-18 13:39:19\n\nTIFFTAG_COPYRIGHT: CC-BY-4.0\n\nDescription: UGA, GHS-DUG grid L1 classification. Population and SDG indicators by Degree of Urbanisation\u200b (DEGURBA) [WorldPop R2025A v1]\n\nAREA_OR_POINT: Area",
+        "data:extent": {
+          "bbox": [
+            2963000.0,
+            -184000.0,
+            3510000.0,
+            522000.0
+          ],
+          "east": 3510000.0,
+          "note": "Coordinates in native projection (see projection:crs)",
+          "west": 2963000.0,
+          "north": 522000.0,
+          "south": -184000.0,
+          "center": {
+            "x": 3236500.0,
+            "y": 169000.0
+          },
+          "dimensions": {
+            "width": 547000.0,
+            "height": 706000.0
+          }
+        },
+        "data:height": 706,
+        "data:origin": [
+          2963000.0,
+          522000.0
+        ],
+        "description": "The dataset provides high-resolution geospatial outputs on degree of urbanisation, available for download in GeoTIFF format at 1 km resolution and presented in the Mollweide equal-area projection (ESRI:54009, WGS84 ellipsoid).\n\nWorldPop Global2 R2025A population data were used together with the GHSL GHS-DUG tool (v6.8) to produce Degree of Urbanisation classes.\n\nGeospatial output data consist of several files covering different urbanisation classes; please refer to the tool documentation for detailed file specifications, processing parameters, and usage guidelines.",
+        "files count": 4,
+        "Alpha-3 code": "UGA",
+        "data project": "WorldPop Global Demographic Data (Global 2)",
+        "data:centroid": {
+          "lat": 1.367518,
+          "lon": 32.322469
+        },
+        "stats:std_dev": 0.48,
+        "data:data_type": "uint8",
+        "projection:crs": {
+          "x_0": 0,
+          "y_0": 0,
+          "proj": "moll",
+          "datum": "WGS84",
+          "lon_0": 0,
+          "units": "m",
+          "no_defs": true
+        },
+        "data:dimensions": "X:547 Y:706 Bands:1",
+        "data:pixel_size": [
+          1000.0,
+          1000.0
+        ],
+        "data:compression": "lzw",
+        "projection:proj4": "+proj=moll +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs=True",
+        "data:nodata_value": 0.0,
+        "data:corner_coords": {
+          "top_left": [
+            2963000.0,
+            522000.0
+          ],
+          "top_right": [
+            3510000.0,
+            522000.0
+          ],
+          "bottom_left": [
+            2963000.0,
+            -184000.0
+          ],
+          "bottom_right": [
+            3510000.0,
+            -184000.0
+          ]
+        },
+        "data:driver_metadata": "GTiff",
+        "Digital Object Identifier (DOI)": "10.5258/SOTON/WP00879",
+        "coordinate_reference_system:name": "ESRI:54009",
+        "coordinate_reference_system:units": "Projected",
+        "coordinate_reference_system:accuracy": "Based on World Geodetic System 1984 ensemble (EPSG:6326), which has a limited accuracy of at best 2 meters.",
+        "coordinate_reference_system:citation": "Bondarenko M., Zhang W., Tejedor-Garavito N., Nosatiuk B., Tatem A., Sorichetta A..Degree of Urbanisation classes using WorldPop Global2 R2025A population data with theGHSL GHS-DUG tool. DEGURBA Project - Funded by European Commission. WorldPop -School of Geography and Environmental Science, University of Southampton 2026. \n\n DOI:10.5258/SOTON/WP00879"
+      },
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+      ],
+      "stac_version": "1.1.0"
+    },
+    {
+      "id": "UGA_DUG_2029",
+      "bbox": [
+        29.56415799171268,
+        -1.4881970648379006,
+        35.080780308377214,
+        4.223233942687475
+      ],
+      "type": "Feature",
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://api.stac.worldpop.org/collections/UGA"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.stac.worldpop.org/collections/UGA"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.stac.worldpop.org/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://api.stac.worldpop.org/collections/UGA/items/UGA_DUG_2029"
+        },
+        {
+          "rel": "https://dx.doi.org/10.5258/SOTON/WP00879",
+          "href": "https://api.stac.worldpop.org/text/html",
+          "title": "DOI - 10.5258/SOTON/WP00879"
+        },
+        {
+          "rel": "https://hub.worldpop.org/project/categories?id=3",
+          "href": "https://api.stac.worldpop.org/text/html",
+          "title": "Global2 R2025A population"
+        },
+        {
+          "rel": "https://human-settlement.emergency.copernicus.eu/tools.php",
+          "href": "https://api.stac.worldpop.org/text/html",
+          "title": "GHS-DUG tool (v6.8)"
+        },
+        {
+          "rel": "documentation",
+          "href": "https://human-settlement.emergency.copernicus.eu/tools/GHS-DUG_User_Guide.pdf",
+          "type": "application/pdf",
+          "title": "GHS-DUG Tool Documentation"
+        }
+      ],
+      "assets": {
+        "grid_l1": {
+          "href": "https://data.worldpop.org/GIS/DUG/Global_2015_2030/R2025A/v1/2029/UGA/UGA_DUG_2029_GRID_L1_R2025A_v1.tif",
+          "type": "image/tiff; application=geotiff",
+          "roles": [
+            "data"
+          ],
+          "title": "Download - GRID Level 1",
+          "description": "Degree of Urbanisation GRID Level 1 data for Uganda, 2029. Raster file contains the GHS-DUG grid L1 classification, where each pixel is classified in one of these settlement classes: 1, 2 and 3."
+        },
+        "grid_l2": {
+          "href": "https://data.worldpop.org/GIS/DUG/Global_2015_2030/R2025A/v1/2029/UGA/UGA_DUG_2029_GRID_L2_R2025A_v1.tif",
+          "type": "image/tiff; application=geotiff",
+          "roles": [
+            "data"
+          ],
+          "title": "Download - GRID Level 2",
+          "description": "Degree of Urbanisation GRID Level 2 data for Uganda, 2029. Raster file contains the GHS-DUG grid L2 classification, where each pixel is classified in one of these settlement classes: 10, 11, 12, 13, 21, 22, 23 and 30."
+        },
+        "entities": {
+          "href": "https://data.worldpop.org/GIS/DUG/Global_2015_2030/R2025A/v1/2029/UGA/UGA_DUG_2029_entities_R2025A_v1.zip",
+          "type": "application/zip",
+          "roles": [
+            "data"
+          ],
+          "title": "Download - Entities",
+          "description": "Degree of Urbanisation entities data for Uganda, 2029. Raster and vector files contain spatial entities that are derived from GHSL SMOD grid L2 classification raster."
+        },
+        "thumbnail": {
+          "href": "https://api.stac.worldpop.org/thumbnails/items/UGA_DUG_2029?collection_id=UGA",
+          "type": "image/png",
+          "roles": [
+            "overview"
+          ],
+          "title": "Thumbnail image"
+        },
+        "statistics": {
+          "href": "https://data.worldpop.org/GIS/DUG/Global_2015_2030/R2025A/v1/2029/UGA/UGA_DUG_2029_statistics_R2025A_v1.zip",
+          "type": "application/zip",
+          "roles": [
+            "metadata"
+          ],
+          "title": "Download - Statistics",
+          "description": "Degree of Urbanisation statistics for Uganda, 2029. Population count per Degree of Urbanisation classes."
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.080780308377214,
+              -1.4881970648379006
+            ],
+            [
+              35.080780308377214,
+              4.223233942687475
+            ],
+            [
+              29.56415799171268,
+              4.223233942687475
+            ],
+            [
+              29.56415799171268,
+              -1.4881970648379006
+            ],
+            [
+              35.080780308377214,
+              -1.4881970648379006
+            ]
+          ]
+        ]
+      },
+      "collection": "UGA",
+      "properties": {
+        "name": "Uganda",
+        "size": "332.38 KB",
+        "year": 2029,
+        "title": "Uganda, Degree of Urbanisation in 2029",
+        "Release": "R2025A",
+        "Version": "v1",
+        "project": "Degree of Urbanisation",
+        "datetime": "2029-01-01T00:00:00Z",
+        "provider": "GTiff",
+        "stats:max": 3.0,
+        "stats:min": 1.0,
+        "data:width": 547,
+        "stats:mean": 1.29,
+        "data:band_1": "TIFFTAG_DOCUMENTNAME: UGA_DUG_2029_GRID_L1_R2025A_v1\n\nTIFFTAG_IMAGEDESCRIPTION: UGA, GHS-DUG grid L1 classification. Population and SDG indicators by Degree of Urbanisation\u200b (DEGURBA) [WorldPop R2025A v1]\n\nTIFFTAG_SOFTWARE: GHS-DUG - Degree of Urbanisation Grid (v6.8)\n\nTIFFTAG_DATETIME: 2026-01-18 13:39:18\n\nTIFFTAG_COPYRIGHT: CC-BY-4.0\n\nDescription: UGA, GHS-DUG grid L1 classification. Population and SDG indicators by Degree of Urbanisation\u200b (DEGURBA) [WorldPop R2025A v1]\n\nAREA_OR_POINT: Area",
+        "data:extent": {
+          "bbox": [
+            2963000.0,
+            -184000.0,
+            3510000.0,
+            522000.0
+          ],
+          "east": 3510000.0,
+          "note": "Coordinates in native projection (see projection:crs)",
+          "west": 2963000.0,
+          "north": 522000.0,
+          "south": -184000.0,
+          "center": {
+            "x": 3236500.0,
+            "y": 169000.0
+          },
+          "dimensions": {
+            "width": 547000.0,
+            "height": 706000.0
+          }
+        },
+        "data:height": 706,
+        "data:origin": [
+          2963000.0,
+          522000.0
+        ],
+        "description": "The dataset provides high-resolution geospatial outputs on degree of urbanisation, available for download in GeoTIFF format at 1 km resolution and presented in the Mollweide equal-area projection (ESRI:54009, WGS84 ellipsoid).\n\nWorldPop Global2 R2025A population data were used together with the GHSL GHS-DUG tool (v6.8) to produce Degree of Urbanisation classes.\n\nGeospatial output data consist of several files covering different urbanisation classes; please refer to the tool documentation for detailed file specifications, processing parameters, and usage guidelines.",
+        "files count": 4,
+        "Alpha-3 code": "UGA",
+        "data project": "WorldPop Global Demographic Data (Global 2)",
+        "data:centroid": {
+          "lat": 1.367518,
+          "lon": 32.322469
+        },
+        "stats:std_dev": 0.48,
+        "data:data_type": "uint8",
+        "projection:crs": {
+          "x_0": 0,
+          "y_0": 0,
+          "proj": "moll",
+          "datum": "WGS84",
+          "lon_0": 0,
+          "units": "m",
+          "no_defs": true
+        },
+        "data:dimensions": "X:547 Y:706 Bands:1",
+        "data:pixel_size": [
+          1000.0,
+          1000.0
+        ],
+        "data:compression": "lzw",
+        "projection:proj4": "+proj=moll +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs=True",
+        "data:nodata_value": 0.0,
+        "data:corner_coords": {
+          "top_left": [
+            2963000.0,
+            522000.0
+          ],
+          "top_right": [
+            3510000.0,
+            522000.0
+          ],
+          "bottom_left": [
+            2963000.0,
+            -184000.0
+          ],
+          "bottom_right": [
+            3510000.0,
+            -184000.0
+          ]
+        },
+        "data:driver_metadata": "GTiff",
+        "Digital Object Identifier (DOI)": "10.5258/SOTON/WP00879",
+        "coordinate_reference_system:name": "ESRI:54009",
+        "coordinate_reference_system:units": "Projected",
+        "coordinate_reference_system:accuracy": "Based on World Geodetic System 1984 ensemble (EPSG:6326), which has a limited accuracy of at best 2 meters.",
+        "coordinate_reference_system:citation": "Bondarenko M., Zhang W., Tejedor-Garavito N., Nosatiuk B., Tatem A., Sorichetta A..Degree of Urbanisation classes using WorldPop Global2 R2025A population data with theGHSL GHS-DUG tool. DEGURBA Project - Funded by European Commission. WorldPop -School of Geography and Environmental Science, University of Southampton 2026. \n\n DOI:10.5258/SOTON/WP00879"
+      },
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+      ],
+      "stac_version": "1.1.0"
+    },
+    {
+      "id": "UGA_DUG_2028",
+      "bbox": [
+        29.56415799171268,
+        -1.4881970648379006,
+        35.080780308377214,
+        4.223233942687475
+      ],
+      "type": "Feature",
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://api.stac.worldpop.org/collections/UGA"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.stac.worldpop.org/collections/UGA"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.stac.worldpop.org/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://api.stac.worldpop.org/collections/UGA/items/UGA_DUG_2028"
+        },
+        {
+          "rel": "https://dx.doi.org/10.5258/SOTON/WP00879",
+          "href": "https://api.stac.worldpop.org/text/html",
+          "title": "DOI - 10.5258/SOTON/WP00879"
+        },
+        {
+          "rel": "https://hub.worldpop.org/project/categories?id=3",
+          "href": "https://api.stac.worldpop.org/text/html",
+          "title": "Global2 R2025A population"
+        },
+        {
+          "rel": "https://human-settlement.emergency.copernicus.eu/tools.php",
+          "href": "https://api.stac.worldpop.org/text/html",
+          "title": "GHS-DUG tool (v6.8)"
+        },
+        {
+          "rel": "documentation",
+          "href": "https://human-settlement.emergency.copernicus.eu/tools/GHS-DUG_User_Guide.pdf",
+          "type": "application/pdf",
+          "title": "GHS-DUG Tool Documentation"
+        }
+      ],
+      "assets": {
+        "grid_l1": {
+          "href": "https://data.worldpop.org/GIS/DUG/Global_2015_2030/R2025A/v1/2028/UGA/UGA_DUG_2028_GRID_L1_R2025A_v1.tif",
+          "type": "image/tiff; application=geotiff",
+          "roles": [
+            "data"
+          ],
+          "title": "Download - GRID Level 1",
+          "description": "Degree of Urbanisation GRID Level 1 data for Uganda, 2028. Raster file contains the GHS-DUG grid L1 classification, where each pixel is classified in one of these settlement classes: 1, 2 and 3."
+        },
+        "grid_l2": {
+          "href": "https://data.worldpop.org/GIS/DUG/Global_2015_2030/R2025A/v1/2028/UGA/UGA_DUG_2028_GRID_L2_R2025A_v1.tif",
+          "type": "image/tiff; application=geotiff",
+          "roles": [
+            "data"
+          ],
+          "title": "Download - GRID Level 2",
+          "description": "Degree of Urbanisation GRID Level 2 data for Uganda, 2028. Raster file contains the GHS-DUG grid L2 classification, where each pixel is classified in one of these settlement classes: 10, 11, 12, 13, 21, 22, 23 and 30."
+        },
+        "entities": {
+          "href": "https://data.worldpop.org/GIS/DUG/Global_2015_2030/R2025A/v1/2028/UGA/UGA_DUG_2028_entities_R2025A_v1.zip",
+          "type": "application/zip",
+          "roles": [
+            "data"
+          ],
+          "title": "Download - Entities",
+          "description": "Degree of Urbanisation entities data for Uganda, 2028. Raster and vector files contain spatial entities that are derived from GHSL SMOD grid L2 classification raster."
+        },
+        "thumbnail": {
+          "href": "https://api.stac.worldpop.org/thumbnails/items/UGA_DUG_2028?collection_id=UGA",
+          "type": "image/png",
+          "roles": [
+            "overview"
+          ],
+          "title": "Thumbnail image"
+        },
+        "statistics": {
+          "href": "https://data.worldpop.org/GIS/DUG/Global_2015_2030/R2025A/v1/2028/UGA/UGA_DUG_2028_statistics_R2025A_v1.zip",
+          "type": "application/zip",
+          "roles": [
+            "metadata"
+          ],
+          "title": "Download - Statistics",
+          "description": "Degree of Urbanisation statistics for Uganda, 2028. Population count per Degree of Urbanisation classes."
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.080780308377214,
+              -1.4881970648379006
+            ],
+            [
+              35.080780308377214,
+              4.223233942687475
+            ],
+            [
+              29.56415799171268,
+              4.223233942687475
+            ],
+            [
+              29.56415799171268,
+              -1.4881970648379006
+            ],
+            [
+              35.080780308377214,
+              -1.4881970648379006
+            ]
+          ]
+        ]
+      },
+      "collection": "UGA",
+      "properties": {
+        "name": "Uganda",
+        "size": "329.04 KB",
+        "year": 2028,
+        "title": "Uganda, Degree of Urbanisation in 2028",
+        "Release": "R2025A",
+        "Version": "v1",
+        "project": "Degree of Urbanisation",
+        "datetime": "2028-01-01T00:00:00Z",
+        "provider": "GTiff",
+        "stats:max": 3.0,
+        "stats:min": 1.0,
+        "data:width": 547,
+        "stats:mean": 1.28,
+        "data:band_1": "TIFFTAG_DOCUMENTNAME: UGA_DUG_2028_GRID_L1_R2025A_v1\n\nTIFFTAG_IMAGEDESCRIPTION: UGA, GHS-DUG grid L1 classification. Population and SDG indicators by Degree of Urbanisation\u200b (DEGURBA) [WorldPop R2025A v1]\n\nTIFFTAG_SOFTWARE: GHS-DUG - Degree of Urbanisation Grid (v6.8)\n\nTIFFTAG_DATETIME: 2026-01-18 13:39:17\n\nTIFFTAG_COPYRIGHT: CC-BY-4.0\n\nDescription: UGA, GHS-DUG grid L1 classification. Population and SDG indicators by Degree of Urbanisation\u200b (DEGURBA) [WorldPop R2025A v1]\n\nAREA_OR_POINT: Area",
+        "data:extent": {
+          "bbox": [
+            2963000.0,
+            -184000.0,
+            3510000.0,
+            522000.0
+          ],
+          "east": 3510000.0,
+          "note": "Coordinates in native projection (see projection:crs)",
+          "west": 2963000.0,
+          "north": 522000.0,
+          "south": -184000.0,
+          "center": {
+            "x": 3236500.0,
+            "y": 169000.0
+          },
+          "dimensions": {
+            "width": 547000.0,
+            "height": 706000.0
+          }
+        },
+        "data:height": 706,
+        "data:origin": [
+          2963000.0,
+          522000.0
+        ],
+        "description": "The dataset provides high-resolution geospatial outputs on degree of urbanisation, available for download in GeoTIFF format at 1 km resolution and presented in the Mollweide equal-area projection (ESRI:54009, WGS84 ellipsoid).\n\nWorldPop Global2 R2025A population data were used together with the GHSL GHS-DUG tool (v6.8) to produce Degree of Urbanisation classes.\n\nGeospatial output data consist of several files covering different urbanisation classes; please refer to the tool documentation for detailed file specifications, processing parameters, and usage guidelines.",
+        "files count": 4,
+        "Alpha-3 code": "UGA",
+        "data project": "WorldPop Global Demographic Data (Global 2)",
+        "data:centroid": {
+          "lat": 1.367518,
+          "lon": 32.322469
+        },
+        "stats:std_dev": 0.47,
+        "data:data_type": "uint8",
+        "projection:crs": {
+          "x_0": 0,
+          "y_0": 0,
+          "proj": "moll",
+          "datum": "WGS84",
+          "lon_0": 0,
+          "units": "m",
+          "no_defs": true
+        },
+        "data:dimensions": "X:547 Y:706 Bands:1",
+        "data:pixel_size": [
+          1000.0,
+          1000.0
+        ],
+        "data:compression": "lzw",
+        "projection:proj4": "+proj=moll +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs=True",
+        "data:nodata_value": 0.0,
+        "data:corner_coords": {
+          "top_left": [
+            2963000.0,
+            522000.0
+          ],
+          "top_right": [
+            3510000.0,
+            522000.0
+          ],
+          "bottom_left": [
+            2963000.0,
+            -184000.0
+          ],
+          "bottom_right": [
+            3510000.0,
+            -184000.0
+          ]
+        },
+        "data:driver_metadata": "GTiff",
+        "Digital Object Identifier (DOI)": "10.5258/SOTON/WP00879",
+        "coordinate_reference_system:name": "ESRI:54009",
+        "coordinate_reference_system:units": "Projected",
+        "coordinate_reference_system:accuracy": "Based on World Geodetic System 1984 ensemble (EPSG:6326), which has a limited accuracy of at best 2 meters.",
+        "coordinate_reference_system:citation": "Bondarenko M., Zhang W., Tejedor-Garavito N., Nosatiuk B., Tatem A., Sorichetta A..Degree of Urbanisation classes using WorldPop Global2 R2025A population data with theGHSL GHS-DUG tool. DEGURBA Project - Funded by European Commission. WorldPop -School of Geography and Environmental Science, University of Southampton 2026. \n\n DOI:10.5258/SOTON/WP00879"
+      },
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+      ],
+      "stac_version": "1.1.0"
+    }
+  ]
+}

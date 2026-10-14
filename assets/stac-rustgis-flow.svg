@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">STAC to RustGIS workflow</title><desc id="desc">A five-step flow from catalog discovery, through bounded metadata search and provenance check, to GeoJSON handoff and RustGIS exploration.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0e2136"/><stop offset="1" stop-color="#16465d"/></linearGradient><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6" fill="none" stroke="#7fdddb" stroke-width="2"/></marker></defs>
+<rect width="1200" height="420" rx="24" fill="url(#bg)"/><text x="54" y="70" font-family="Arial,sans-serif" font-size="37" fill="#f2f7f6" font-weight="700">From STAC discovery to RustGIS analysis</text>
+<g font-family="Arial,sans-serif" font-size="21" text-anchor="middle">
+<g fill="#164d65" stroke="#6bd8d6" stroke-width="3"><rect x="42" y="139" width="188" height="176" rx="20"/><rect x="273" y="139" width="188" height="176" rx="20"/><rect x="504" y="139" width="188" height="176" rx="20"/><rect x="735" y="139" width="188" height="176" rx="20"/><rect x="966" y="139" width="188" height="176" rx="20"/></g>
+<g fill="#fff"><text x="136" y="192">1. Discover</text><text x="136" y="226" font-size="16">STAC collection</text><text x="367" y="192">2. Bound</text><text x="367" y="226" font-size="16">space + time</text><text x="598" y="192">3. Inspect</text><text x="598" y="226" font-size="16">license + assets</text><text x="829" y="192">4. Export</text><text x="829" y="226" font-size="16">GeoJSON + query</text><text x="1060" y="192">5. Open</text><text x="1060" y="226" font-size="16">RustGIS map</text></g>
+<g fill="#f8c46b" font-size="36" font-weight="700"><text x="136" y="280">⌕</text><text x="367" y="280">□</text><text x="598" y="280">✓</text><text x="829" y="280">↧</text><text x="1060" y="280">◉</text></g>
+</g><g stroke="#7fdddb" stroke-width="3" marker-end="url(#arrow)"><path d="M232 225H262"/><path d="M463 225H493"/><path d="M694 225H724"/><path d="M925 225H955"/></g>
+<text x="54" y="376" font-family="Arial,sans-serif" fill="#b8e5e5" font-size="17">Metadata footprints are not raster pixel values • Keep source, date, and license with every export</text>
+</svg>

@@ -2,5 +2,9 @@ format: jb-book
 root: index
 chapters:
   - file: workflow
+  - file: course
+  - file: stac
   - file: maps
+  - file: assistant
+  - file: gallery
   - file: references
