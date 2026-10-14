@@ -1,0 +1,6 @@
+_site/
+book/_build/
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.jupyterlite.doit.db

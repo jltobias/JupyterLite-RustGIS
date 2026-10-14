@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: Cite this repository and the upstream software listed in the README.
+type: software
+title: JupyterLite-RustGIS
+authors:
+  - family-names: Tobias
+    given-names: James L.
+repository-code: https://github.com/jltobias/JupyterLite-RustGIS
+url: https://jltobias.github.io/JupyterLite-RustGIS/

@@ -1,0 +1,11 @@
+{
+  "type": "FeatureCollection",
+  "name": "Illustrative DC teaching features",
+  "features": [
+    {"type":"Feature","properties":{"name":"Study block A","kind":"footprint","height_m":65},"geometry":{"type":"Polygon","coordinates":[[[-77.0416,38.9040],[-77.0404,38.9040],[-77.0404,38.9049],[-77.0416,38.9049],[-77.0416,38.9040]]]}},
+    {"type":"Feature","properties":{"name":"Study block B","kind":"footprint","height_m":42},"geometry":{"type":"Polygon","coordinates":[[[-77.0396,38.9032],[-77.0385,38.9032],[-77.0385,38.9041],[-77.0396,38.9041],[-77.0396,38.9032]]]}},
+    {"type":"Feature","properties":{"name":"Study block C","kind":"footprint","height_m":90},"geometry":{"type":"Polygon","coordinates":[[[-77.0377,38.9050],[-77.0367,38.9050],[-77.0367,38.9058],[-77.0377,38.9058],[-77.0377,38.9050]]]}},
+    {"type":"Feature","properties":{"name":"Observation A","kind":"observation","height_m":0},"geometry":{"type":"Point","coordinates":[-77.0425,38.9025]}},
+    {"type":"Feature","properties":{"name":"Observation B","kind":"observation","height_m":0},"geometry":{"type":"Point","coordinates":[-77.0358,38.9062]}}
+  ]
+}

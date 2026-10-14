@@ -1,0 +1,12 @@
+title: JupyterLite–RustGIS
+author: J. L. Tobias
+copyright: "2026"
+only_build_toc_files: true
+execute:
+  execute_notebooks: 'off'
+html:
+  use_repository_button: true
+repository:
+  url: https://github.com/jltobias/JupyterLite-RustGIS
+  branch: main
+  path_to_book: book
