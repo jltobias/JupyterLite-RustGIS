@@ -18,6 +18,16 @@ def main():
     subprocess.run([shutil.which("jupyter-book") or "jupyter-book", "build", "book", "--path-output", str(SITE / "book-build")], cwd=ROOT, check=True)
     shutil.copytree(SITE / "book-build" / "_build" / "html", SITE / "book")
     shutil.rmtree(SITE / "book-build")
+    # Jupyter Book 1.0.4.post1 currently emits the same inline Thebe const
+    # twice. Remove the duplicate to avoid a browser SyntaxError.
+    for html in (SITE / "book").glob("*.html"):
+        content = html.read_text(encoding="utf-8")
+        line = next((value for value in content.splitlines(keepends=True) if "const THEBE_JS_URL" in value), None)
+        if line and content.count(line) > 1:
+            first = content.find(line)
+            second = content.find(line, first + len(line))
+            content = content[:second] + content[second + len(line):]
+            html.write_text(content, encoding="utf-8")
     shutil.copytree(ROOT / "data", SITE / "data")
     shutil.copytree(ROOT / "assets", SITE / "assets")
     maps = SITE / "maps"
