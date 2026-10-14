@@ -6,3 +6,7 @@
 4. To run actual RustGIS Python commands, install `rustgis` in a local Python environment and run `04_native_rustgis.ipynb` there. Pyodide cannot load native RustGIS wheels.
 
 The companion map pages use MapLibre GL JS and the same GeoJSON. They illustrate concepts applicable to RustGIS but do not execute RustGIS commands.
+
+## Native RustGIS analysis
+
+The local notebook creates `rustgis.Session(sample=True)`, exports a map with `session.to_png(...)`, and invokes RustGIS geoprocessing with `session.run('gp.run', tool='buffer', params={'input': 'Cities', 'distance': 100})`. These calls follow the [upstream RustGIS quick start](https://github.com/opengeos/RustGIS#quick-start). Check the current tool help and project units before adapting the buffer distance to real data.

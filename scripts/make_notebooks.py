@@ -42,6 +42,8 @@ write("04_native_rustgis.ipynb", [
     markdown("# Native RustGIS Python session\n\n**Run locally in Jupyter, not in JupyterLite.** Install the upstream native package with `python -m pip install rustgis`. See the [RustGIS Python guide](https://github.com/opengeos/RustGIS/blob/main/docs/python.md).\n"),
     code("import rustgis\n\nsession = rustgis.Session(sample=True)\nsession\n"),
     code("session.to_png('rustgis_sample.png')\nfrom IPython.display import Image, display\ndisplay(Image(filename='rustgis_sample.png'))\n"),
+    markdown("## Buffer the sample cities\n\nThe call below follows the command form shown in the [RustGIS README](https://github.com/opengeos/RustGIS#quick-start). The distance value is interpreted by the current tool and project settings; consult the upstream tool help before applying it to your own data.\n"),
+    code("session.run('gp.run', tool='buffer', params={'input': 'Cities', 'distance': 100})\nsession.to_png('rustgis_city_buffers.png')\ndisplay(Image(filename='rustgis_city_buffers.png'))\n"),
     markdown("The upstream sample project is used here because the native API's file import signatures can change. Consult the [upstream documentation](https://github.com/opengeos/RustGIS/blob/main/docs/python.md) before adapting the session to your own data.\n")
 ], [ROOT / "notebooks"])
 
